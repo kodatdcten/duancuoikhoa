@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../html/login.css">
+</head>
+<body>
+    <!-- day la man hinh login -->
+    <script src="../html/login.js"></script>
+    
+    <div id="container">
+        
+      <div id="register-form" class="form">
+        <h2>Đăng Ký</h2>
+        <form id="register-form">
+          <label for="register-username">Tên đăng nhập:</label>
+          <input type="text" id="register-username" required>
+          
+          <label for="register-password">Mật khẩu:</label>
+          <input type="password" id="register-password" required>
+          
+          <button type="button" onclick="register()">Đăng Ký</button>
+        </form>
+      </div>
+  
+      <div id="login-form" class="form">
+        <h2>Đăng Nhập</h2>
+        <form id="login-form">
+          <label for="login-username">Tên đăng nhập:</label>
+          <input type="text" id="login-username" required>
+          
+          <label for="login-password">Mật khẩu:</label>
+          <input type="password" id="login-password" required>
+          
+          <button type="button" onclick="login()">Đăng Nhập</button>
+        </form>
+      </div>
+    </div>
+</body>
+</html>

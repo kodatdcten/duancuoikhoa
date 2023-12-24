@@ -1,0 +1,29 @@
+body {
+    background-image: url(../img/chef.jpg);
+    background-size: 120%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #container {
+    display: flex;
+    color: rgb(163, 92, 26);
+   
+  }
+  
+  .form {
+    margin: 0 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }

@@ -15,7 +15,7 @@ function openMenu(evt, menuName) {
 
 var btn = $('#button');
 
-$(window).scroll(function() {
+$(window).scroll(function () {
     console.log("1231231");
     if ($(window).scrollTop() > 300) {
         btn.addClass('show');
@@ -24,8 +24,16 @@ $(window).scroll(function() {
     }
 });
 
-btn.on('click', function(e) {
+btn.on('click', function (e) {
     e.preventDefault();
 
     $('html, body').animate({ scrollTop: 0 }, '300');
 });
+
+var buttonLogin = document.getElementById("login");
+
+buttonLogin.addEventListener("click", (e) => {
+    e.preventDefault();
+    console.log("dang click Login");
+    location.href = "http://127.0.0.1:5501/html/login.html";
+})

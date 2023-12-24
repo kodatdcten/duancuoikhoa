@@ -4,218 +4,247 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Document</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" >
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
 </head>
-  
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <body>
-        <script src="main.js"></script>
-        <div class="boxs animate__animated animate__fadeInDown">
+<script src="../js/main.js" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<body>
+    <script src="main.js"></script>
+    <div class="boxs animate__animated animate__fadeInDown">
+        <div>
             <a href="#" class="nav_item">HOME</a>
             <a href="#menu" class="nav_item">MENU</a>
             <a href="#about" class="nav_item">ABOUT</a>
             <a href="#contact" class="nav_item">CONTACT</a>
+            <a href="#shop" class="nav_item">SHOP</a>
         </div>
-        <div class="box-slide">
+        <div class="login">
+            <a id="login" href="#" class="nav_item">sign in/sign up</a>
 
-            <div class="box-container">
-                <span class="box-slide-container">
+        </div>
+
+    </div>
+    <div class="box-slide">
+
+        <div class="box-container">
+            <span class="box-slide-container">
                 <b>
                     thin
                     <br>
                     CRUST PIZZA
                 </b>
             </span>
-                <p>
-                    <a href="#menu" class="box-menu">Let me see the menu</a>
-                </p>
-            </div>
-            <div class="time-open">
-                <span class="time">Open from 10am to 12pm</span>
-            </div>
-
+            <p>
+                <a href="#menu" class="box-menu">Let me see the menu</a>
+            </p>
+        </div>
+        <div class="time-open">
+            <span class="time">Open from 10am to 12pm</span>
         </div>
 
-        <div class="container">
-            <div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
-                <div class="w3-content">
+    </div>
 
-                    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">THE MENU</h1>
-                    <div class="w3-row w3-center w3-border w3-border-dark-grey">
-                        <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
-                            <div class="w3-col s4 tablink w3-padding-large w3-hover-red w3-red">Pizza</div>
-                        </a>
-                        <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
-                            <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Salads</div>
-                        </a>
-                        <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');">
-                            <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Starter</div>
-                        </a>
-                    </div>
+    <div class="container">
+        <div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
+            <div class="w3-content">
 
-                    <div id="Pizza" class="w3-container menu w3-padding-32 w3-white" style="display: block;">
-                        <h1><b>Margherita</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$12.50</span></h1>
-                        <p class="w3-text-grey">Fresh tomatoes, fresh mozzarella, fresh basil</p>
-                        <hr>
+                <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">THE MENU</h1>
+                <div class="w3-row w3-center w3-border w3-border-dark-grey">
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
+                        <div class="w3-col s4 tablink w3-padding-large w3-hover-red w3-red">Pizza</div>
+                    </a>
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
+                        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Salads</div>
+                    </a>
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');">
+                        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Starter</div>
+                    </a>
+                </div>
 
-                        <h1><b>Formaggio</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$15.50</span></h1>
-                        <p class="w3-text-grey">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
-                        <hr>
+                <div id="Pizza" class="w3-container menu w3-padding-32 w3-white" style="display: block;">
+                    <h1><b>Margherita</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$12.50</span></h1>
+                    <p class="w3-text-grey">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+                    <hr>
 
-                        <h1><b>Chicken</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$17.00</span></h1>
-                        <p class="w3-text-grey">Fresh tomatoes, mozzarella, chicken, onions</p>
-                        <hr>
+                    <h1><b>Formaggio</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$15.50</span></h1>
+                    <p class="w3-text-grey">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+                    <hr>
 
-                        <h1><b>Pineapple'o'clock</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$16.50</span></h1>
-                        <p class="w3-text-grey">Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
-                        <hr>
+                    <h1><b>Chicken</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$17.00</span></h1>
+                    <p class="w3-text-grey">Fresh tomatoes, mozzarella, chicken, onions</p>
+                    <hr>
 
-                        <h1><b>Meat Town</b> <span class="w3-tag w3-red w3-round">Hot!</span><span class="w3-right w3-tag w3-dark-grey w3-round">$20.00</span></h1>
-                        <p class="w3-text-grey">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
-                        <hr>
+                    <h1><b>Pineapple'o'clock</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$16.50</span></h1>
+                    <p class="w3-text-grey">Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
+                    <hr>
 
-                        <h1><b>Parma</b> <span class="w3-tag w3-grey w3-round">New</span><span class="w3-right w3-tag w3-dark-grey w3-round">$21.50</span></h1>
-                        <p class="w3-text-grey">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
-                    </div>
+                    <h1><b>Meat Town</b> <span class="w3-tag w3-red w3-round">Hot!</span><span
+                            class="w3-right w3-tag w3-dark-grey w3-round">$20.00</span></h1>
+                    <p class="w3-text-grey">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+                    <hr>
 
-                    <div id="Pasta" class="w3-container menu w3-padding-32 w3-white" style="display: none;">
-                        <h1><b>Lasagna</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">$13.50</span></h1>
-                        <p class="w3-text-grey">Special sauce, mozzarella, parmesan, ground beef</p>
-                        <hr>
+                    <h1><b>Parma</b> <span class="w3-tag w3-grey w3-round">New</span><span
+                            class="w3-right w3-tag w3-dark-grey w3-round">$21.50</span></h1>
+                    <p class="w3-text-grey">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+                </div>
 
-                        <h1><b>Ravioli</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$14.50</span></h1>
-                        <p class="w3-text-grey">Ravioli filled with cheese</p>
-                        <hr>
+                <div id="Pasta" class="w3-container menu w3-padding-32 w3-white" style="display: none;">
+                    <h1><b>Lasagna</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span
+                            class="w3-right w3-tag w3-dark-grey w3-round">$13.50</span></h1>
+                    <p class="w3-text-grey">Special sauce, mozzarella, parmesan, ground beef</p>
+                    <hr>
 
-                        <h1><b>Spaghetti Classica</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$11.00</span></h1>
-                        <p class="w3-text-grey">Fresh tomatoes, onions, ground beef</p>
-                        <hr>
+                    <h1><b>Ravioli</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$14.50</span></h1>
+                    <p class="w3-text-grey">Ravioli filled with cheese</p>
+                    <hr>
 
-                        <h1><b>Seafood pasta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
-                        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
-                    </div>
+                    <h1><b>Spaghetti Classica</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$11.00</span></h1>
+                    <p class="w3-text-grey">Fresh tomatoes, onions, ground beef</p>
+                    <hr>
+
+                    <h1><b>Seafood pasta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
+                    <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+                </div>
 
 
-                    <div id="Starter" class="w3-container menu w3-padding-32 w3-white" style="display: none;">
-                        <h1><b>Today's Soup</b> <span class="w3-tag w3-grey w3-round">Seasonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">$5.50</span></h1>
-                        <p class="w3-text-grey">Ask the waiter</p>
-                        <hr>
+                <div id="Starter" class="w3-container menu w3-padding-32 w3-white" style="display: none;">
+                    <h1><b>Today's Soup</b> <span class="w3-tag w3-grey w3-round">Seasonal</span><span
+                            class="w3-right w3-tag w3-dark-grey w3-round">$5.50</span></h1>
+                    <p class="w3-text-grey">Ask the waiter</p>
+                    <hr>
 
-                        <h1><b>Bruschetta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$8.50</span></h1>
-                        <p class="w3-text-grey">Bread with pesto, tomatoes, onion, garlic</p>
-                        <hr>
+                    <h1><b>Bruschetta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$8.50</span></h1>
+                    <p class="w3-text-grey">Bread with pesto, tomatoes, onion, garlic</p>
+                    <hr>
 
-                        <h1><b>Garlic bread</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$9.50</span></h1>
-                        <p class="w3-text-grey">Grilled ciabatta, garlic butter, onions</p>
-                        <hr>
+                    <h1><b>Garlic bread</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$9.50</span></h1>
+                    <p class="w3-text-grey">Grilled ciabatta, garlic butter, onions</p>
+                    <hr>
 
-                        <h1><b>Tomozzarella</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-                        <p class="w3-text-grey">Tomatoes and mozzarella</p>
-                    </div><br>
+                    <h1><b>Tomozzarella</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+                    <p class="w3-text-grey">Tomatoes and mozzarella</p>
+                </div><br>
 
+            </div>
+        </div>
+    </div>
+    <div class="about-container">
+        <div class="box-about">
+            <h1 class="about">About</h1>
+            <p>
+                The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p>
+                <strong>The Chef?</strong> "Mr.Italiano him self"
+                <img src="./chef.jpg" class="chef" alt="">
+            </p>
+            <p>We are proud of our interiors.</p>
+            <img src="./onepage_restaurant.jpg" class="onepage" alt="">
+
+            <h1>
+                <b>Opening Hours</b>
+            </h1>
+            <div class="open-container">
+                <div class="box-open">
+                    <p>Mon &amp; Tue CLOSED</p>
+                    <p>Wednesday 10.00 - 24.00</p>
+                    <p>Thursday 10:00 - 24:00</p>
+                </div>
+                <div class="box-open">
+                    <p>Friday 10:00 - 12:00</p>
+                    <p>Saturday 10:00 - 23:00</p>
+                    <p>Sunday Closed</p>
                 </div>
             </div>
         </div>
-        <div class="about-container">
-            <div class="box-about">
-                <h1 class="about">About</h1>
+    </div>
+    <img src="./map.jpg" class="map" alt="">
+    <div class="contect" id="contact">
+        <div class="box-contect">
+            <h1 class="contect-container">Contact</h1>
+            <p>Find us at some address at some place or call us at 05050515-122330</p>
+            <p>
+                <span class="fyi">FYI!</span> We offer full-service catering for any event, large or small. We
+                understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look
+                and taste.
+            </p>
+            <p class="reserve">
+                <strong>Reserve</strong> a table, ask for today's special or just send us a message:
+            </p>
+            <form action="/action_page.php" target="_blank">
                 <p>
-                    The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat.
+                    <input type="text" placeholder="Name" class="information" required name="Name">
                 </p>
                 <p>
-                    <strong>The Chef?</strong> "Mr.Italiano him self"
-                    <img src="./chef.jpg" class="chef" alt="">
+                    <input type="number" placeholder="How many people" class="information" required name=".People">
                 </p>
-                <p>We are proud of our interiors.</p>
-                <img src="./onepage_restaurant.jpg" class="onepage" alt="">
+                <p>
+                    <input type="datetime-local" placeholder="Date and time" class="information" required name="date"
+                        valune="2020-11-16T20:00">
+                </p>
+                <p>
+                    <input type="text" placeholder="Message \ special requirements" class="information" required
+                        name="message">
+                </p>
+                <p>
+                    <button class="send">SEND MESSAGE</button>
+                </p>
 
-                <h1>
-                    <b>Opening Hours</b>
-                </h1>
-                <div class="open-container">
-                    <div class="box-open">
-                        <p>Mon &amp; Tue CLOSED</p>
-                        <p>Wednesday 10.00 - 24.00</p>
-                        <p>Thursday 10:00 - 24:00</p>
-                    </div>
-                    <div class="box-open">
-                        <p>Friday 10:00 - 12:00</p>
-                        <p>Saturday 10:00 - 23:00</p>
-                        <p>Sunday Closed</p>
-                    </div>
-                </div>
-            </div>
+            </form>
         </div>
-        <img src="./map.jpg" class="map" alt="">
-        <div class="contect" id="contact">
-            <div class="box-contect">
-                <h1 class="contect-container">Contact</h1>
-                <p>Find us at some address at some place or call us at 05050515-122330</p>
-                <p>
-                    <span class="fyi">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.
-                </p>
-                <p class="reserve">
-                    <strong>Reserve</strong> a table, ask for today's special or just send us a message:
-                </p>
-                <form action="/action_page.php" target="_blank">
-                    <p>
-                        <input type="text" placeholder="Name" class="information" required name="Name">
-                    </p>
-                    <p>
-                        <input type="number" placeholder="How many people" class="information" required name=".People">
-                    </p>
-                    <p>
-                        <input type="datetime-local" placeholder="Date and time" class="information" required name="date" valune="2020-11-16T20:00">
-                    </p>
-                    <p>
-                        <input type="text" placeholder="Message \ special requirements" class="information" required name="message">
-                    </p>
-                    <p>
-                        <button class="send">SEND MESSAGE</button>
-                    </p>
-
-                </form>
+    </div>
+    <div class="footer">
+        <div class="footer-top">
+            <div class="footer-social">
+                <a href="" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="" class="pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+                <a href="" class="youtobe"><i class="fa-brands fa-youtube"></i></a>
+                <a href="" class="instargram"><i class="fa-brands fa-instagram"></i></a>
             </div>
-        </div>
-        <div class="footer">
-            <div class="footer-top">
-                <div class="footer-social">
-                    <a href="" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="" class="twitter"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="" class="pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
-                    <a href="" class="youtobe"><i class="fa-brands fa-youtube"></i></a>
-                    <a href="" class="instargram"><i class="fa-brands fa-instagram"></i></a>
-                </div>
-                <div class="footer-app">
-                    <img loading="lazy" src="https://images.ctfassets.net/prxuf37q3ta2/3rpUtgtonoCrv8PAUf7ytj/44ed2c688722f50d1f9f2c295fb25d06/App-Store.svg" alt="AppStore" width="136" height="40" class="css-4zleql exepuqb0">
-                    <img loading="lazy" src="https://images.ctfassets.net/prxuf37q3ta2/6I7ZeDpWu8FChWR1jBsfFL/52bd9fadb3fe09c462d5479673eb76bb/GooglePlay-Store.svg" alt="Google Play Store" width="136" height="40" class="css-4zleql exepuqb0">
-                </div>
-
-            </div>
-            <hr />
-            <div class="footer-bottom">
-                <a class="footer-bottom__item" href="">© 2023 Marks and Spencer plc (UK)</a>
-                <a class="footer-bottom__item" href="">Terms & Conditions</a>
-                <a class="footer-bottom__item" href="">Privacy</a>
-                <a class="footer-bottom__item" href="">Cookies</a>
-                <a class="footer-bottom__item" href="">Accessibility</a>
-                <a class="footer-bottom__item" href="">Modern Slavery Act</a>
-
+            <div class="footer-app">
+                <img loading="lazy"
+                    src="https://images.ctfassets.net/prxuf37q3ta2/3rpUtgtonoCrv8PAUf7ytj/44ed2c688722f50d1f9f2c295fb25d06/App-Store.svg"
+                    alt="AppStore" width="136" height="40" class="css-4zleql exepuqb0">
+                <img loading="lazy"
+                    src="https://images.ctfassets.net/prxuf37q3ta2/6I7ZeDpWu8FChWR1jBsfFL/52bd9fadb3fe09c462d5479673eb76bb/GooglePlay-Store.svg"
+                    alt="Google Play Store" width="136" height="40" class="css-4zleql exepuqb0">
             </div>
 
         </div>
+        <hr />
+        <div class="footer-bottom">
+            <a class="footer-bottom__item" href="">© 2023 Marks and Spencer plc (UK)</a>
+            <a class="footer-bottom__item" href="">Terms & Conditions</a>
+            <a class="footer-bottom__item" href="">Privacy</a>
+            <a class="footer-bottom__item" href="">Cookies</a>
+            <a class="footer-bottom__item" href="">Accessibility</a>
+            <a class="footer-bottom__item" href="">Modern Slavery Act</a>
 
-        <a id="button"></a>
-    </body>
+        </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="./main.js"></script>
+    </div>
+
+    <a id="button"></a>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="../js/main.js"></script>
 
 </html>

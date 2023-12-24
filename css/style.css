@@ -108,7 +108,7 @@ body {
 
 .box-slide {
     position: relative;
-    background-image: url(./img/pizza.jpg);
+    background-image: url(../img/istockphoto-1343561122-612x612.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
@@ -295,7 +295,7 @@ b {
 }
 
 p {
-    font-size: 24px!important;
+    font-size: 24px !important;
 }
 
 .boxs {
@@ -417,4 +417,13 @@ hr {
     left: -14px;
     top: 0.3rem;
     border-right: 1px solid #ffffff;
+}
+
+.login {
+    flex: 1;
+    text-align: end;
+}
+
+.boxs {
+    display: flex;
 }
