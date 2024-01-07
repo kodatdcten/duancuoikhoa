@@ -61,10 +61,10 @@ function register() {
     }
   }
       
-// var buttonLogin = document.getElementById("login");
+var buttonLogin = document.getElementById("home");
 
-// buttonLogin.addEventListener("click", (e) => {
-//     e.preventDefault();
-//     console.log("dang click Login");
-//     location.href = "http://127.0.0.1:5501/page/";
-// })
+buttonLogin.addEventListener("click", (e) => {
+    e.preventDefault();
+    console.log("click Login");
+    location.href = "http://127.0.0.1:5501/page/index.html";
+})
